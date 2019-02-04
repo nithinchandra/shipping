@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="91826591-8eab-4c0d-864c-4ffbe88158a6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consignment-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/consignment-service/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vessel-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/vessel-service/Dockerfile" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,11 +30,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/consignment-service/Makefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="51">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vessel-service/Makefile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/consignment-service/proto/consignment/consignment.pb.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="20" column="74" lean-forward="true" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="74" />
             </state>
           </provider>
         </entry>
@@ -45,16 +61,7 @@
         <entry file="file://$PROJECT_DIR$/consignment-service/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
-              <caret line="22" column="50" lean-forward="true" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/vessel-service/Dockerfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+              <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -73,18 +80,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="9" selection-start-column="9" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vessel-service/main.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="68" selection-start-line="68" selection-end-line="68" />
-              <folding>
-                <element signature="e#14#26#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -128,8 +123,8 @@
       <find>update</find>
       <find>curl</find>
       <find>upgra</find>
-      <find>3.</find>
       <find>vess</find>
+      <find>3.</find>
     </findStrings>
   </component>
   <component name="GOROOT" path="/usr/local/Cellar/go/1.11.5/libexec" />
@@ -143,15 +138,15 @@
         <option value="$PROJECT_DIR$/consignment-cli/Dockerfile" />
         <option value="$PROJECT_DIR$/consignment-cli/Makefile" />
         <option value="$PROJECT_DIR$/vessel-service/proto/vessel/vessel.proto" />
-        <option value="$PROJECT_DIR$/vessel-service/Makefile" />
         <option value="$PROJECT_DIR$/vessel-service/main.go" />
         <option value="$PROJECT_DIR$/consignment-service/main.go" />
         <option value="$PROJECT_DIR$/consignment-cli/consignment.json" />
         <option value="$PROJECT_DIR$/consignment-service/proto/consignment/consignment.proto" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
-        <option value="$PROJECT_DIR$/consignment-service/Makefile" />
         <option value="$PROJECT_DIR$/consignment-service/Dockerfile" />
         <option value="$PROJECT_DIR$/vessel-service/Dockerfile" />
+        <option value="$PROJECT_DIR$/vessel-service/Makefile" />
+        <option value="$PROJECT_DIR$/consignment-service/Makefile" />
       </list>
     </option>
   </component>
@@ -195,6 +190,19 @@
               <item name="shipping" type="b2602c69:ProjectViewProjectNode" />
               <item name="shipping" type="462c0819:PsiDirectoryNode" />
               <item name="vessel-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shipping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shipping" type="462c0819:PsiDirectoryNode" />
+              <item name="vessel-service" type="462c0819:PsiDirectoryNode" />
+              <item name="proto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shipping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shipping" type="462c0819:PsiDirectoryNode" />
+              <item name="vessel-service" type="462c0819:PsiDirectoryNode" />
+              <item name="proto" type="462c0819:PsiDirectoryNode" />
+              <item name="vessel" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -293,13 +301,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vessel-service/Makefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="4" selection-start-line="3" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vessel-service/main.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="269">
@@ -362,6 +363,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vessel-service/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consignment-service/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vessel-service/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/consignment-service/proto/consignment/consignment.pb.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -371,22 +393,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/consignment-service/Makefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consignment-service/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="50" lean-forward="true" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vessel-service/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        <state relative-caret-position="51">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
         </state>
       </provider>
     </entry>
